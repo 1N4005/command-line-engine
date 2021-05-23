@@ -7,7 +7,7 @@ window::window(string _bg, int _width, int _height) {
 }
 
 window::window(int width, int height) {
-    window("game window", width, height);
+    window("#", width, height);
 }
 
 void window::refresh() {
